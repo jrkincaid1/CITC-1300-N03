@@ -1,0 +1,100 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Main body CSS */
+body, html {
+    background-color: azure;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    display: grid;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 75%;
+}
+
+/* Container DIV styling */
+#container {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: tomato;
+}
+
+header img {
+    width: 25%;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+    margin: 50px;
+}
+
+nav a {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: azure;
+    color: black;
+}
+
+/* Content styling */
+.card {
+    background-color: azure;
+    padding: 0px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    color: tomato;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.card a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: black;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+}
