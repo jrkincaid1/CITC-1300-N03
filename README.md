@@ -9,3 +9,4 @@
 <li><a href="./Lab4/index.html" target="_blank">Lab 4 - Beginning CSS</a></li>
 <li><a href="./Midterm/index.html" target="_blank">Midterm</a></li>
 <li><a href="./Lab5/index.html" target="_blank">Lab 5 - Mobile Responsiveness</a></li>
+<li><a href="./Lab6/index.html" target="_blank">Lab 6 - Tablet and Desktop Responsiveness</a></li>

@@ -1,0 +1,181 @@
+/* Global Styles */
+
+body {
+    background-color: burlywood;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: sandybrown;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+
+}
+
+nav li a {
+    display: block;
+    padding: 5px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: white;
+}
+
+main {
+    background-color: sandybrown;
+    padding: 20px;
+    margin: 10px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+    header {
+        background-image: url('../images/kamura.jpg');
+        background-size: cover;
+        background-position: center center;
+        padding: 40px 0;
+        font-size: 2em;
+    }
+
+    header h1 {
+        color: white;
+        text-shadow: 2px 2px 2px #000;
+        font-size: 3em;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        padding: 10px 20px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    section {
+        width: 75%;
+    }
+
+    aside {
+        width: 25%;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px) {
+    main img {
+        border-radius: 10px;
+    }
+    
+    header {
+        background-image: url('../images/greatsword.jpg');
+        background-size: cover;
+        background-position: center center;
+        padding: 10px;
+        font-size: 3em;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    nav li a {
+        font-size: 1.5em;
+        padding: 20px 30px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .active {
+        background-color: white;
+    }
+}
