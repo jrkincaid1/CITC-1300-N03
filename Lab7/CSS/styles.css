@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    display: grid;
+}
+
+header {
+    margin: 0;
+    padding: 20px;
+    background-color: #6EB4C7;
+    text-align: center;
+    box-shadow: 0px 1px 10px black;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+#container {
+    display: flex;
+    margin: 0px auto;
+}
+
+main {
+    background-color: #82D6ED;
+    z-index: 1;
+    box-shadow: 0 3px 10px black;
+}
+
+main h3 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+main video {
+    margin: 10px auto;
+    display: block;
+    width: 75%;
+}
+
+main audio {
+    margin: 10px auto;
+    display: block;
+}
+
+main iframe {
+    margin: 10px auto;
+    display: block;
+    width: 75%;
+    height: 500px;
+    border: none;
+}
+
+table {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 75%;
+}
+
+td {
+    margin: 10px;
+    padding: 10px;
+}
+
+.odd {
+    background-color: #6EB4C7;
+}
+
+.even {
+    background-color: white;
+}
+
+footer {
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: #6EB4C7;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0 -1px 10px black;
+}

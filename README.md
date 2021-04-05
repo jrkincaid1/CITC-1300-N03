@@ -10,3 +10,4 @@
 <li><a href="./Midterm/index.html" target="_blank">Midterm</a></li>
 <li><a href="./Lab5/index.html" target="_blank">Lab 5 - Mobile Responsiveness</a></li>
 <li><a href="./Lab6/index.html" target="_blank">Lab 6 - Tablet and Desktop Responsiveness</a></li>
+<li><a href="./Lab7/index.html" target="_blank">Lab 7 - Hosted and Embedded Audio and Video / Tables</a></li>
