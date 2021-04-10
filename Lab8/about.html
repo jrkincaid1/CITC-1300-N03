@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Monster Hunter Buddy Finder</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="js/dist/slicknav.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" type="text/css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/dist/jquery.slicknav.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav();
+            $('.slider').bxSlider({
+                captions: true,
+                respnosive: false
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Monster Hunter Buddy Finder</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="locator.html">Buddy Locator</a></li>
+            <li><a href="gallery.html">MH Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+
+        <main>
+
+            <h3>About Monster Hunter Buddy Finder</h3>
+            <p>Monster Hunter Buddy Finder is a tool for Monster Hunter Rise players on the Nintendo Switch to locate like-minded Rise fans to hunt with. We ask for the username, friend code, location, and available play times so that you can match up with someone that is available when you are.</p>
+            <p>We will never ask for passwords, payment information, or any sort of account information. This tool is specifically used for fans of Monster Hunter Rise to play with one another more easily. Thank you and have fun!</p>
+        </main>
+
+    </div>
+
+    <footer>Copyright &copy; 2021 Monster Hunter Buddy Finder</footer>
+</body>
+</html>

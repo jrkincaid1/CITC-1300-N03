@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter Buddy Finder</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="js/dist/slicknav.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" type="text/css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/dist/jquery.slicknav.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav();
+            $('.slider').bxSlider({
+                captions: true,
+                respnosive: false
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Monster Hunter Buddy Finder</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locator.html">Buddy Locator</a></li>
+            <li><a href="gallery.html">MH Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+
+        <main>
+
+            <div class="slider">
+                <div><img src="images/kamura_characters.jpg" alt="Kamura village cast of characters"></div>
+                <div><img src="images/aknosom.jpg" alt="Image of the Aknosom"></div>
+              </div>
+
+              <br class="tablet">
+
+            <h3>Welcome to Monster Hunter Buddy Finder!</h3>
+            <p>Monster Hunter Buddy Finder is a tool to help you find folks to play with! You can choose to share your Switch friend code to allow other players to locate you, and choose times that are convenient for you to link up! Thank you for checking us out, and we hope you find some new buddies!</p>
+            <img class="mobile" src="images/kamura_characters.jpg" alt="The characters of Kamura village">
+        </main>
+
+    </div>
+
+    <footer>Copyright &copy; 2021 Monster Hunter Buddy Finder</footer>
+</body>
+</html>

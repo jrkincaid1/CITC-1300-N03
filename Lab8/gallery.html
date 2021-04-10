@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Monster Hunter Buddy Finder</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="js/dist/slicknav.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" type="text/css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/dist/jquery.slicknav.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav();
+            $('.slider').bxSlider({
+                captions: true,
+                respnosive: false
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Monster Hunter Buddy Finder</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="locator.html">Buddy Locator</a></li>
+            <li><a class="active" href="gallery.html">MH Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+
+        <main>
+
+            <h3>Monster Hunter Rise Gallery</h3>
+            <p>Here are some concept and final designs for some monsters and characters in Monster Hunter Rise. Each one was lovingly brought to life by a team of talented artists at Capcom.</p>
+                <a href="images/aknosom.jpg" data-lightbox="image1" data-title="Aknosom"><img src="images/aknosom.jpg" alt="Aknosom"></a>
+                <a href="images/great_izuchi.jpg" data-lightbox="image2" data-title="Great Izuchi"><img src="images/great_izuchi.jpg" alt="Great Izuchi"></a>
+                <a href="images/great_wroggi.jpg" data-lightbox="image3" data-title="Great Wroggi"><img src="images/great_wroggi.jpg" alt="Great Wroggi"></a>
+                <a href="images/kamura_characters.jpg" data-lightbox="image4" data-title="Kamura Characters"><img src="images/kamura_characters.jpg" alt="Kamura Characters"></a>
+        </main>
+
+    </div>
+
+    <footer>Copyright &copy; 2021 Monster Hunter Buddy Finder</footer>
+</body>
+</html>

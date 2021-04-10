@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy Locator | Monster Hunter Buddy Finder</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="js/dist/slicknav.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" type="text/css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/dist/jquery.slicknav.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav();
+            $('.slider').bxSlider({
+                captions: true,
+                respnosive: false
+            });
+            $( "#accordion" ).accordion();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Monster Hunter Buddy Finder</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="locator.html">Buddy Locator</a></li>
+            <li><a href="gallery.html">MH Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+
+        <main>
+
+            <h3>Using the Buddy Finder</h3>
+            <p>Firstly, using the buddy locator will always be free! We don't keep any of your information on file other than what's displayed below (for allowing other players to find you).</p>
+            <p>Below, you'll find other players' names, locations, friend codes, and available play times for your convenience.</p>
+            
+            <h3>The Handy-Dandy Buddy Locator</h3>
+
+                <div id="accordion">
+                    <h3>Robbie Kincaid</h3>
+                    <div>
+                        <table>
+                            <tr>
+                            <th>Friend Code</th>
+                            <th>Location</th>
+                            <th>Available Times to Play</th>
+                            </tr>
+                            <tr>
+                                <td>SW-XXXX-XXXX-XXXX</td>
+                                <td>Southeastern US</td>
+                                <td>8 PM to 11 PM every day</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h3>Chelsea Adriance</h3>
+                    <div>
+                        <table>
+                            <tr>
+                            <th>Friend Code</th>
+                            <th>Location</th>
+                            <th>Available Times to Play</th>
+                            </tr>
+                            <tr>
+                                <td>SW-XXXX-XXXX-XXXX</td>
+                                <td>Southeastern US</td>
+                                <td>5 PM to 10 PM every day</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h3>Jody Morris</h3>
+                    <div>
+                        <table>
+                            <tr>
+                            <th>Friend Code</th>
+                            <th>Location</th>
+                            <th>Available Times to Play</th>
+                            </tr>
+                            <tr>
+                                <td>SW-XXXX-XXXX-XXXX</td>
+                                <td>Southeastern US</td>
+                                <td>7 PM to 12 AM weekdays. Anytime on the weekends.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h3>Jeffery Haulk</h3>
+                    <div>
+                        <table>
+                            <tr>
+                            <th>Friend Code</th>
+                            <th>Location</th>
+                            <th>Available Times to Play</th>
+                            </tr>
+                            <tr>
+                                <td>SW-XXXX-XXXX-XXXX</td>
+                                <td>Southeastern US</td>
+                                <td>Free most times.</td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
+        </main>
+
+    </div>
+
+    <footer>Copyright &copy; 2021 Monster Hunter Buddy Finder</footer>
+</body>
+</html>
