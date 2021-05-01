@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Hyrule's Unexplained</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" href="js/dist/slicknav.css" type="text/css">
+    <link rel="stylesheet" href="styles/lightbox.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/dist/jquery.slicknav.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav();
+        });
+    </script>
+</head>
+<body>
+
+    <div id="masthead">
+    <!-- Site Navigation-->
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html"><img src="images/logo_wide.png" alt="Logo solid white"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About HU</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Site header-->
+    <header>
+            <h1>Hyrule's Unexplained</h1>
+    </header>
+    </div>
+
+    <!-- Site Container-->
+    <div id="container">
+
+        <!-- Site Contents-->
+        <main>
+            <section>
+                <h2>The Gallery</h2>
+                <p>Here are some of the spooky and odd images from the Zelda series for your viewing pleasure. Let us know if you'd like to see more or if you have suggestions!</p>
+                <p>Simply click a thumbnail to enlarge it for a better view!</p>
+
+                <div id="gallery">
+                    <a href="images/clawmarks.jpg" data-lightbox="image1" data-title="Claw marks at Lake Hylia"><img src="images/clawmarks.jpg" alt="Claw marks at Lake Hylia"></a>
+                    <a href="images/exploring.jpg" data-lightbox="image2" data-title="Link and Zelda exploring"><img src="images/exploring.jpg" alt="Link and Zelda exploring"></a>
+                    <a href="images/hera.jpeg" data-lightbox="image3" data-title="Link looking at the Tower of Hera"><img src="images/hera.jpeg" alt="Link looking on at the Tower of Hera"></a>
+                    <a href="images/letter.png" data-lightbox="image4" data-title="A letter ready to be mailed"><img src="images/letter.png" alt="A letter ready to be mailed"></a>
+                    <a href="images/link1.jpeg" data-lightbox="image5" data-title="Just Link looking at something"><img src="images/link1.jpeg" alt="Just Link looking at something"></a>
+                    <a href="images/Woods_of_Mystery.png" data-lightbox="image6" data-title="The Woods of Mystery from Majora's Mask"><img src="images/Woods_of_Mystery.png" alt="The Woods of Mystery from Majora's Mask"></a>
+                    <a href="images/zelda-secret.png" data-lightbox="image7" data-title="Person giving Link a secret in the first Zelda game"><img src="images/zelda-secret.png" alt="Person giving Link a secret in the first Zelda game"></a>
+                    <p class="center">Lorule Castle Theme: Zelda: A Link Between Worlds <br />
+                        <audio controls>
+                            <source src="audio/Lorule_Castle.mp3" type="audio/mp3">
+                        </audio>
+                    </p>
+                    <p class="center">
+                        Zeltik's Top 5 Zelda Mysteries Video <br />
+                        <video controls>
+                            <source src="videos/zeltik_mystery.mp4" type="video/mp4">
+                        </video>
+                    </p>
+                </div>
+            </section>
+            <aside>
+                <h4>Fellow Zelda Fan Sites</h4>
+                <ul>
+                    <li><a href="http://www.zeldauniverse.net" target="_blank">Zelda Universe</a></li>
+                    <li><a href="http://www.zeldalegends.net" target="_blank">Zelda Legends</a></li>
+                    <li><a href="http://www.classiczelda.com/" target="_blank">Ice's Zelda Central</a></li>
+                    <li><a href="https://www.linkshideaway.com/" target="_blank">Link's Hideaway</a></li>
+                    <li><a href="http://www.northcastle.co.uk/" target="_blank">North Castle</a></li>
+                </ul>
+                <h4>Official Zelda Channels</h4>
+                <ul>
+                    <li><a href="https://www.zelda.com/">Zelda.com</a></li>
+                    <li><a href="https://www.nintendo.com/">Nintendo.com</a></li>
+                    <li><a href="https://twitter.com/NintendoAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Nintendo on Twitter</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCGIY_O-8vW4rfX98KlMkvRg">Nintendo on Youtube</a></li>
+                    <li><a href="https://www.facebook.com/Nintendo/">Nintendo on Facebook</a></li>
+                </ul>
+            </aside>
+        </main>
+
+    </div> <!-- End Site Container-->
+
+    <!-- Site footer-->
+    <footer>
+        <p>&copy; 2021 John Kincaid | Hyrule's Unexplained</p>
+    </footer>
+    
+</body>
+</html>

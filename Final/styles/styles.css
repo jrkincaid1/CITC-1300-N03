@@ -1,0 +1,433 @@
+/* Import Font Style */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+/* General Styles */
+
+html body {
+    background-color: black;
+    background-image: url('../images/site_bg.jpg');
+    background-size: cover;
+    display: grid;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 100%;
+}
+
+p {
+    color: white;
+}
+
+/* Mobile Styles */
+@media only screen and (min-width: 320px){
+    #masthead {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+        background-image: url('../images/ww_redead.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        background-color: #2E2F30 !important;
+        background: rgba(46, 47, 48, 0.6) !important;
+    }
+
+    header h1 {
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        text-shadow: 5px 0px 10px green;
+    }
+
+    #container {
+        margin: 10px auto;
+        padding: 10px;
+        width: 95%;
+        height: 100vh;
+        display: grid;
+        display: table;
+        background-color: #2E2F30;
+        border-radius: 25px;
+    }
+
+    nav {
+        margin: 0px;
+        padding: 10px;
+        text-align: left;
+        background-color: #2E2F30;
+        vertical-align: middle;
+        background: rgba(46, 47, 48, 0.6);
+        display: none;
+    }
+
+    .active {
+        background-color: #646669;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        padding: 5px 25px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        display: block;
+        color: white;
+    }
+
+    nav li a:hover {
+        background-color: #646669;
+    }
+
+    header {
+        margin: 0px;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 10px;
+        height: 100%;
+        line-height: 2rem;
+    }
+
+    section, aside {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    main h2 {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        text-shadow: 5px 0px 10px green;
+    }
+
+    main h4 {
+        color: white;
+        text-align: center;
+        font-size: 1.25rem;
+        text-shadow: 5px 0px 10px green;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+
+    main a {
+        color: green;
+        text-decoration: none;
+    }
+
+    main a:hover {
+        color: white;
+    }
+
+    section img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    figure {
+        margin: auto;
+    }
+
+    figcaption {
+        padding: 0px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .odd {
+        background-color: #2E2F30;
+        color: white;
+    }
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 10px;
+        row-gap: 50px;
+    }
+
+    .even {
+        background-color: black;
+        color: white;
+    }
+
+    table {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    fieldset {
+        display: block;
+        max-width: 75%;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+
+    legend {
+        color: white;
+    }
+
+    .title {
+        float: left;
+        width: 150px;
+        text-align: right;
+        color: white;
+        padding-right: 10px;
+    }
+
+    #submit {
+        text-align: right;
+    }
+
+    input[type="text"] {
+        border: 1px solid white;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    textarea {
+        border: 1px solid white;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    input[type="text"]:focus, input[type="text"]:hover {
+        background-color: #2E2F30;
+        color: green;
+        box-shadow: 3px 3px 3px green;
+    }
+
+    textarea:focus, textarea:hover {
+        background-color: #2E2F30;
+        color: green;
+        box-shadow: 3px 3px 3px green;
+    }
+
+    input[type="submit"] {
+        color: white;
+        background-color: darkgreen;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding: 15px;
+    }
+
+    input[type="submit"]:focus, input[type="submit"]:hover {
+        color: white;
+        background-color: darkslategray;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+
+    aside ul {
+        list-style-type: square;
+        padding-left: 0px;
+        color: white;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    audio {
+        display: block;
+        margin: 0px auto;
+        max-width: 75%;
+    }
+
+    video {
+        display: block;
+        margin: 0px auto;
+        max-width: 100%;
+    }
+
+    .center {
+        text-align: center;
+    }
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px){
+    
+    nav li {
+        display: inline-block;
+    }
+
+    .right {
+        text-align: right;
+    }
+    
+    header h1 {
+        font-size: 4rem;
+    }
+
+    main {
+        grid-template-columns: 75% 25%;
+        column-gap: 10px;
+        line-height: 2rem;
+    }
+
+    #gallery {
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+
+    section img {
+        display: block;
+        margin: 0px auto 0px auto;;
+        max-width: 50%;
+        border-radius: 5%;
+    }
+
+    figcaption {
+        margin: 10px auto 0px auto;
+        max-width: 50%;
+        border-radius: 5px;
+    }
+
+    fieldset {
+        max-width: 50%;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+    main h4 {
+        font-size: 1.25rem;
+    }
+
+    main p {
+        font-size: 1.05rem;
+    }
+
+    figcaption {
+        font-size: 1.025rem;
+    }
+
+    aside li {
+        font-size: 1.05rem;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px){
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: inline-block;
+    }
+
+    nav {
+        margin: 0px;
+        padding: 10px;
+        text-align: left;
+        background-color: #2E2F30;
+        background: rgba(46, 47, 48, 0.6);
+        display: block;
+    }
+
+    header h1 {
+        font-size: 5rem;
+    }
+
+    main {
+        line-height: 2.3rem;
+    }
+
+    main h2 {
+        font-size: 2.25rem;
+    }
+
+    main h4 {
+        font-size: 1.5rem;
+    }
+
+    main p {
+        font-size: 1.1rem;
+    }
+
+    figcaption {
+        font-size: 1rem;
+    }
+
+    #gallery {
+        grid-template-columns: 33% 33% 33%;
+        column-gap: 10px;
+    }
+
+    aside li {
+        font-size: 1.1rem;
+    }
+}
+
+/* 4K Styles */
+
+@media only screen and (min-width: 2560px){
+    nav li a {
+        font-size: 2rem;
+    }
+
+    header h1 {
+        font-size: 8rem;
+    }
+
+    main {
+        line-height: 3.5rem;
+    }
+
+    main h2 {
+        font-size: 3.5rem;
+    }
+
+    main h4 {
+        font-size: 2.75rem;
+    }
+
+    main p {
+        font-size: 2rem;
+    }
+
+    figcaption {
+        font-size: 1.75rem;
+    }
+
+    aside li {
+        font-size: 2rem;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+}

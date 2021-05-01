@@ -12,3 +12,4 @@
 <li><a href="./Lab6/index.html" target="_blank">Lab 6 - Tablet and Desktop Responsiveness</a></li>
 <li><a href="./Lab7/index.html" target="_blank">Lab 7 - Hosted and Embedded Audio and Video / Tables</a></li>
 <li><a href="./Lab8/index.html" target="_blank">Lab 8 - Introduction to JQuery</a></li>
+<li><a href="./Final/index.html" target="_blank">Final Project - Hyrule's Unexplained</a></li>
